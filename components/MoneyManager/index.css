@@ -1,0 +1,133 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  overflow: auto;
+}
+.head-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px;
+}
+.heading {
+  color: #475569;
+  font-size: 35px;
+}
+.head-para {
+  color: #475569;
+  font-size: 24px;
+}
+.span-style {
+  color: #0b69ff;
+}
+.transaction-history-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.transaction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 25px;
+}
+.transaction-heading {
+  color: #7e858e;
+  font-size: 25px;
+  font-weight: 600;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.label-style {
+  color: #d7dfe9;
+  font-size: 15px;
+  font-weight: 400;
+}
+.input-style {
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  width: 300px;
+}
+.add-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  text-align: center;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 25px;
+  overflow: auto;
+}
+.history-heading {
+  color: #7e858e;
+  font-size: 25px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+.attributes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  width: 500px;
+  height: 50px;
+}
+.attributes-heading {
+  font-size: 14px;
+  color: #1e293b;
+}
+.dummy-heading {
+  color: #ffffff;
+}
+.transactions-list {
+  list-style-type: none;
+}
+@media (max-width: 767px) {
+  .head-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    border-radius: 15px;
+  }
+  .head-para {
+    font-size: 18px;
+  }
+  .transaction-history-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
