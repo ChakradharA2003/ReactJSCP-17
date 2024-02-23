@@ -1,0 +1,33 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  width: 500px;
+  height: 50px;
+  margin: 0px;
+}
+.delete-image {
+  height: 35px;
+  width: 35px;
+}
+.transaction-text {
+  margin-left: 10px;
+  color: #334155;
+}
+.delete-btn {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .transaction-text {
+    margin-left: 10px;
+  }
+}
